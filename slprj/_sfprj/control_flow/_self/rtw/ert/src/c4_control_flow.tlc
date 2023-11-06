@@ -7,7 +7,7 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   2 \
+    NumChartData   4 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
@@ -25,6 +25,20 @@
       Description  "StateActiveChild"\
       SFName       ""\
       Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "blink_cnt"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "blink_cnt"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "blink_onoff"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "blink_onoff"\
       SrcLocation  ""\
     }\
   }
